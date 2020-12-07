@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LoanApp</string>
+    <string name="nextButtonSlider">Далее</string>
+    <string name="skipSlider">Пропустить</string>
+    <string name="Title1">Получить займ</string>
+    <string name="Description1">Нажмите на 3 полоски в левом верхнем углу экрана.\nДалее в меню нажмите "Получить займ"</string>
+    <string name="Title2">Укажите некоторые данные</string>
+    <string name="Description2">Укажите: \n1. Сумму займа \n2. Ваше имя \n3. Вашу фамилию \n4. Телефонный номер</string>
+
 </resources>

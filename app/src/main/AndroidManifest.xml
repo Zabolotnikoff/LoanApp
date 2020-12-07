@@ -24,6 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.SignInActivity">
+        </activity>
+        <activity android:name=".ui.AccountActivity">
+        </activity>
+        <activity android:name=".ui.InfoSliderActivity">
+        </activity>
+        <activity android:name=".ui.CreateLoanActivity">
+        </activity>
     </application>
 
 </manifest>

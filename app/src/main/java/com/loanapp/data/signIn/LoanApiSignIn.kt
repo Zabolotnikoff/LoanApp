@@ -11,5 +11,5 @@ import retrofit2.http.POST
 interface LoanApiSignIn {
     @Headers("Content-Type: application/json")
     @POST("login")
-    fun signIn(@Body userData: UserInfo): Call<UserInfo>
+    fun signIn(@Body userData: UserInfo): Call<String>
 }
