@@ -12,8 +12,17 @@
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:paddingLeft="16dp"
-        android:text="Сумма займа"
+        android:text="@string/amount_recycler"
         android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/stateTextViewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingTop="5dp"
+        android:paddingStart="16dp"
+        android:text="@string/state_recycler"/>
 
     <TextView
         android:id="@+id/dateTextViewItem"
@@ -21,5 +30,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:paddingStart="16dp"
-        android:text="Дата займа"/>
+        android:text="@string/date_recycler"/>
 </LinearLayout>

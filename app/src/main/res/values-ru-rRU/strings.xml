@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LoanApp</string>
     <string name="nextButtonSlider" translatable="false">Далее</string>
@@ -27,6 +28,5 @@
     <string name="get_loan_navView">Получить займ</string>
     <string name="dark_itemView">Включить темную тему</string>
     <string name="change_lang">Выбрать язык</string>
-    <string name="validatePass" translatable="false">Пароль должен быть не менее 5 символов</string>
-
+    <string name="validatePass">Пароль должен быть не менее 5 символов</string>
 </resources>

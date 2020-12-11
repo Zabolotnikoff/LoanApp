@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoanApp</string>
+    <string name="nextButtonSlider" translatable="false">Next</string>
+    <string name="skipSlider" translatable="false">Skip</string>
+    <string name="Title1" translatable="false">Get a loan</string>
+    <string name="Description1" translatable="false">Click on the 3 bars in the upper left corner of the screen. \nNext, in the menu, click "Get a loan"</string>
+    <string name="Title2" translatable="false">Please provide some details</string>
+    <string name="Description2" translatable="false">Indicate: \n1. Loan amount \n2. Your name \n3. Your surname. \n4. Phone number</string>
+    <string name="empty_allLoans">Loan list is empty</string>
+    <string name="input_login">Enter login</string>
+    <string name="input_password" translatable="false">Enter password</string>
+    <string name="button_registration" translatable="false">Registration</string>
+    <string name="max_amount">Maximum amount:</string>
+    <string name="percent">Percent:</string>
+    <string name="max_amountTv">Maximum term of use:</string>
+    <string name="change_amount">Select the amount using the slider</string>
+    <string name="input_name">Enter your name</string>
+    <string name="input_lastname">Please enter your last name</string>
+    <string name="input_phone">Enter your phone number</string>
+    <string name="button_getLoan">Get</string>
+    <string name="amount_recycler">Loan amount</string>
+    <string name="state_recycler">Loan status</string>
+    <string name="date_recycler">Loan date</string>
+    <string name="input_login_signIn">Enter login</string>
+    <string name="input_password_signIn">Enter password</string>
+    <string name="button_signIn">Login</string>
+    <string name="get_loan_navView">Get a loan</string>
+    <string name="dark_itemView">Enable dark theme</string>
+    <string name="change_lang">Select language</string>
+    <string name="validatePass">Password must be at least 5 characters</string>
+</resources>

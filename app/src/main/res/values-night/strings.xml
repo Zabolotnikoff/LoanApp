@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_allLoans" translatable="false">Список займов пуст</string>
+    <string name="input_login" translatable="false">Введите логин</string>
+    <string name="max_amount" translatable="false">Максимальная сумма:</string>
+    <string name="percent" translatable="false">Процент:</string>
+    <string name="max_amountTv" translatable="false">Максимальный срок пользования:</string>
+    <string name="change_amount" translatable="false">Выберете сумму с помощью бегунка</string>
+    <string name="input_name" translatable="false">Введите ваше имя…</string>
+    <string name="input_lastname" translatable="false">Введите вашу фамилию</string>
+    <string name="input_phone" translatable="false">Введите ваш номер телефона</string>
+    <string name="button_getLoan" translatable="false">Получить</string>
+    <string name="amount_recycler" translatable="false">Сумма займа</string>
+    <string name="state_recycler" translatable="false">Cтатус займа</string>
+    <string name="date_recycler" translatable="false">Дата займа</string>
+    <string name="input_login_signIn" translatable="false">Введите логин</string>
+    <string name="input_password_signIn" translatable="false">Введите пароль</string>
+    <string name="button_signIn" translatable="false">Войти</string>
+    <string name="get_loan_navView" translatable="false">Получить займ</string>
+    <string name="dark_itemView" translatable="false">Включить темную тему</string>
+    <string name="change_lang" translatable="false">Выбрать язык</string>
+</resources>

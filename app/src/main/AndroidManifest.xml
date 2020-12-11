@@ -27,10 +27,13 @@
         <activity android:name=".ui.SignInActivity">
         </activity>
         <activity android:name=".ui.AccountActivity">
+
         </activity>
         <activity android:name=".ui.InfoSliderActivity">
         </activity>
         <activity android:name=".ui.CreateLoanActivity">
+        </activity>
+        <activity android:name=".ui.DetailLoanActivity">
         </activity>
     </application>
 
