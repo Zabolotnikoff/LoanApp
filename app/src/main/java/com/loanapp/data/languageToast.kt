@@ -5,6 +5,6 @@ import java.util.*
 
 object languageToast {
     fun languageToast(): Boolean {
-        return Locale.getDefault().language=="ru"
+        return Locale.getDefault().language == "ru"
     }
 }

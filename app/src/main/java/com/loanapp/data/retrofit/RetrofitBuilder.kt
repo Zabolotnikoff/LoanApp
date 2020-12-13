@@ -1,14 +1,14 @@
 package com.loanapp.data.retrofit
 
+import android.app.Activity
 import com.google.gson.GsonBuilder
-import okhttp3.Interceptor
+import okhttp3.Cache
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import okhttp3.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
-import java.io.IOException
+import java.io.File
 
 
 object RetrofitBuilder {
@@ -22,8 +22,11 @@ object RetrofitBuilder {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build()
     }
-    fun retrofitBuilderWithToken(token: String):Retrofit{
-        val client = OkHttpClient.Builder().addInterceptor { chain ->
+    fun retrofitBuilderWithToken(token: String, activity: Activity):Retrofit{
+        val httpCacheDirectory = File(activity.cacheDir, "cache_file")
+        val client = OkHttpClient.Builder()
+            .cache(Cache(httpCacheDirectory, 10 * 1024 * 1024))
+            .addInterceptor { chain ->
             val newRequest: Request = chain.request().newBuilder()
                     .addHeader("Authorization", token)
                     .build()

@@ -1,6 +1,6 @@
 package com.loanapp.data.registration
 
-import com.loanapp.data.UserInfo
+import com.loanapp.data.user.UserInfo
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.Headers

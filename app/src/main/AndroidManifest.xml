@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.loanapp">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET">
     </uses-permission>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
@@ -16,25 +17,71 @@
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/Theme.LoanApp"
+        android:screenOrientation="portrait"
         tools:targetApi="n">
-        <activity android:name=".ui.MainActivity">
+
+        <activity android:name=".regisration.ui.MainActivity"
+            android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.SignInActivity">
+        <activity android:name=".login.ui.SignInActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="cft.ru"
+                    android:scheme="https" />
+            </intent-filter>
         </activity>
-        <activity android:name=".ui.AccountActivity">
+        <activity android:name=".account.ui.AccountActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="cft.ru"
+                    android:scheme="https" />
+            </intent-filter>
 
         </activity>
-        <activity android:name=".ui.InfoSliderActivity">
+        <activity android:name=".infosliderloan.ui.InfoSliderActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="cft.ru"
+                    android:scheme="https" />
+            </intent-filter>
         </activity>
-        <activity android:name=".ui.CreateLoanActivity">
+        <activity android:name=".createloan.ui.CreateLoanActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="cft.ru"
+                    android:scheme="https" />
+            </intent-filter>
         </activity>
-        <activity android:name=".ui.DetailLoanActivity">
+        <activity android:name=".detailloan.ui.DetailLoanActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="cft.ru"
+                    android:scheme="https" />
+            </intent-filter>
         </activity>
+
+
     </application>
+
+
 
 </manifest>

@@ -26,7 +26,7 @@
     <string name="input_password_signIn">Enter password</string>
     <string name="button_signIn">Login</string>
     <string name="get_loan_navView">Get a loan</string>
-    <string name="dark_itemView">Enable dark theme</string>
+    <string name="dark_itemView">Write to technical support</string>
     <string name="change_lang">Select language</string>
     <string name="validatePass">Password must be at least 5 characters</string>
 </resources>

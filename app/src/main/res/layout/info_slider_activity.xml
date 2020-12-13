@@ -11,7 +11,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
-        android:backgroundTint="@color/purple_700"
+        android:backgroundTint="#C53E3E"
         android:minWidth="110dp"
         android:text="@string/nextButtonSlider"
         android:textAllCaps="false"

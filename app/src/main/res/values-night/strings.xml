@@ -17,6 +17,6 @@
     <string name="input_password_signIn" translatable="false">Введите пароль</string>
     <string name="button_signIn" translatable="false">Войти</string>
     <string name="get_loan_navView" translatable="false">Получить займ</string>
-    <string name="dark_itemView" translatable="false">Включить темную тему</string>
+    <string name="dark_itemView" translatable="false">Написать в тех поддержку</string>
     <string name="change_lang" translatable="false">Выбрать язык</string>
 </resources>

@@ -6,7 +6,7 @@
         android:title="@string/get_loan_navView">
     </item>
     <item
-        android:id="@+id/darkTheme"
+        android:id="@+id/writetotechnicalsupport"
         android:title="@string/dark_itemView">
     </item>
 

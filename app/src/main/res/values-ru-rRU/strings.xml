@@ -26,7 +26,7 @@
     <string name="input_password_signIn">Введите пароль</string>
     <string name="button_signIn">Войти</string>
     <string name="get_loan_navView">Получить займ</string>
-    <string name="dark_itemView">Включить темную тему</string>
+    <string name="dark_itemView">Написать в тех поддержку</string>
     <string name="change_lang">Выбрать язык</string>
     <string name="validatePass">Пароль должен быть не менее 5 символов</string>
 </resources>
